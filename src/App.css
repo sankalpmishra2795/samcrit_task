@@ -1,0 +1,78 @@
+body {
+  color: #ebb84a;
+}
+.org {
+  color: #ebb84a;
+}
+.org-hover:hover {
+  color: aliceblue;
+}
+
+.bg-org {
+  background: #ebb84a;
+}
+
+.bg-blue {
+  background: #7a77e7;
+}
+
+.org-light {
+  color: #ebb84a;
+}
+
+.btn-hover-shadow:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
+}
+
+.outline-none {
+  outline: none !important;
+}
+
+.outline-none:active {
+  outline: none !important;
+}
+
+.outline-none:visited {
+  outline: none !important;
+}
+
+.card {
+  opacity: 0.9;
+}
+
+.my-h-30 {
+  height: 30%;
+}
+
+.custom-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  background: rgba(44, 35, 48, 0.692);
+}
+
+.custom-modal > div {
+  height: 55%;
+  background: #7a77e7;
+}
+
+.btn-org {
+  background: #0213fd;
+  color: #fff !important;
+  transition: all 0.3s ease-in;
+}
+
+.btn-org:hover {
+  background: rgb(25, 49, 48);
+  color: #fff !important;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
